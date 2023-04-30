@@ -1,0 +1,4 @@
+{"level":"error","message":"n1 is incorrectly defined","service":"calculate-service"}
+{"level":"info","message":"Parameters 34 and 4343 received for addition","service":"calculate-service"}
+{"level":"info","message":"Parameters 34 and 433 received for addition","service":"calculate-service"}
+{"level":"info","message":"Parameters 3 and 4 received for addition","service":"calculate-service"}

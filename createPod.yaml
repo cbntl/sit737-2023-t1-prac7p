@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod
+  labels:
+    tier: frontend
+    app.kubernetes.io/name: proxy
+spec:
+  containers:
+    - image: cbntl/node-web-app:latest
+      name: nodewebapp
+      ports:
+        - containerPort: 8080
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
